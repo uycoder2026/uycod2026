@@ -1,22 +1,176 @@
-# ═══════════════════════════════════════════════════════════════════════════
-# 🌙 SYSTEM TELEMETRY :: AWTAHUN_SYSTEMS_ARCHITECTURE_MATRIX.YAML
-# ═══════════════════════════════════════════════════════════════════════════
-engineer:
-  name: "Awtahun (ئاۋتاخۇن)"
-  role_identity: "AI-Native Systems Architect & RTL Frontend Specialist"
-  philosophy: "Zero-Telemetry, Local-First Execution, Modular Clean Architecture"
-  aesthetic_protocol: "Glassmorphic RTL UI (UKIJ Ekran / UKIJ Tuz / ALKATIP Basma)"
+<!DOCTYPE html>
+<html lang="ug">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ahmed Bughra · @Uycoder</title>
+<style>
+  @page { size: A4; margin: 16mm 18mm; }
 
-active_engineering_matrix:
-  - domain: "AI-Augmented Web & Document Intelligence"
-    focus: "PDF Document Analysis Engines, Omnivoice TTS Integration, Offline-Ready Client Apps"
-  - domain: "Browser Extension Architecture (Manifest V3)"
-    focus: "Bilig Arabic Learning Plugin (Syrian Dialect ↔ Uyghur), Audio Synthesis & Glassmorphic UI"
-  - domain: "Agentic CLI & Generative Workflows"
-    focus: "Antigravity CLI (agy) Automation, Gemini Pro Orchestration, Multi-Modal Prompt Engineering"
+  :root {
+    --azure: #0099FF;
+    --azure-deep: #0077CC;
+    --azure-soft: #EAF6FF;
+    --ink: #0B2239;
+    --muted: #5B6B7D;
+    --line: #D6EBFA;
+  }
 
-technical_capabilities:
-  ai_and_voice_synthesis: "Omnivoice TTS, Gemini Pro API, Cinematic AI Video/Audio Prompting & Lip-Sync"
-  frontend_and_typography: "Strict RTL Layout Engineering, Custom Uyghur Web Typography, Modern CSS/JS"
-  privacy_and_architecture: "100% Offline Library Bundling, Zero-Telemetry Standards, Client-Side Processing"
-  extension_engineering: "Chrome Manifest V3, Background Service Workers, Isolated Content Scripts"
+  * { box-sizing: border-box; }
+  html, body { background: #FFFFFF; }
+  body {
+    margin: 0;
+    font-family: "Segoe UI", "Noto Sans", "Noto Sans Arabic", Tahoma, sans-serif;
+    font-size: 11pt;
+    line-height: 1.55;
+    color: var(--ink);
+  }
+  .page { max-width: 780px; margin: 0 auto; padding: 32px 24px; }
+
+  header {
+    border-bottom: 2px solid var(--azure);
+    padding-bottom: 14px;
+    margin-bottom: 22px;
+  }
+  .eyebrow {
+    font-family: Consolas, "Courier New", monospace;
+    font-size: 9pt;
+    color: var(--azure-deep);
+    margin: 0 0 4px;
+  }
+  h1 { font-size: 24pt; margin: 0 0 4px; line-height: 1.2; }
+  .handle { color: var(--azure-deep); font-weight: 600; }
+  .contact { font-size: 9.5pt; color: var(--muted); margin: 6px 0 0; }
+
+  h2 {
+    font-size: 10pt;
+    font-family: Consolas, "Courier New", monospace;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    color: var(--azure-deep);
+    border-bottom: 1px solid var(--line);
+    padding-bottom: 4px;
+    margin: 22px 0 10px;
+  }
+
+  p { margin: 0 0 8px; }
+
+  .job { margin-bottom: 12px; page-break-inside: avoid; }
+  .job-head { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+  .job-role { font-weight: 700; font-size: 11.5pt; }
+  .job-period { font-family: Consolas, monospace; font-size: 9pt; color: var(--muted); }
+  .job-focus { color: var(--muted); font-size: 10pt; margin: 2px 0 0; }
+
+  .pillars { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+  .pillar {
+    border: 1px solid var(--line);
+    border-left: 3px solid var(--azure);
+    padding: 9px 11px;
+    page-break-inside: avoid;
+  }
+  .pillar h3 { font-size: 10.5pt; margin: 0 0 3px; }
+  .pillar p { margin: 0; font-size: 9.5pt; color: var(--muted); }
+
+  table { width: 100%; border-collapse: collapse; font-size: 10pt; }
+  th, td { text-align: left; padding: 7px 10px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th { background: var(--azure-soft); color: var(--azure-deep); }
+  td:first-child { font-weight: 600; white-space: nowrap; width: 28%; }
+
+  footer {
+    margin-top: 24px;
+    padding-top: 10px;
+    border-top: 1px solid var(--line);
+    font-family: Consolas, monospace;
+    font-size: 8.5pt;
+    color: var(--muted);
+    text-align: center;
+  }
+
+  @media print {
+    html, body { background: #FFFFFF; }
+    .page { padding: 0; max-width: none; }
+    a { color: inherit; text-decoration: none; }
+    h2 { page-break-after: avoid; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <header>
+    <p class="eyebrow">// career_matrix</p>
+    <h1>Ahmed Bughra <span class="handle">@Uycoder</span></h1>
+    <p class="contact">Agentic AI &amp; AI-Native Systems Engineer · 7.5+ years · FinTech · PropTech · Agentic AI</p>
+    <p class="contact">github.com/Uycoder</p>
+  </header>
+
+  <h2>About</h2>
+  <p>I build autonomous multi-agent workflows that connect large language models to real enterprise APIs, databases, and developer toolchains.</p>
+  <p>My background is in test and API architecture for mobile financial services at Vodafone. I then spent two years engineering backend services and data pipelines for a real estate API provider. That combination shapes how I approach AI systems: reliability and testability come first.</p>
+
+  <h2>Experience</h2>
+  <div class="job">
+    <div class="job-head">
+      <span class="job-role">Agentic AI &amp; AI-Native Systems Engineer</span>
+      <span class="job-period">Present · 1+ years</span>
+    </div>
+    <p class="job-focus">Claude, multi-agent orchestration, vibe coding, prompt and graph engineering</p>
+  </div>
+  <div class="job">
+    <div class="job-head">
+      <span class="job-role">Freelance API &amp; Automation Engineer (Real Estate / PropTech)</span>
+      <span class="job-period">Previous · 2 years</span>
+    </div>
+    <p class="job-focus">RESTful API services, backend microservices, data and integration pipelines</p>
+  </div>
+  <div class="job">
+    <div class="job-head">
+      <span class="job-role">Software Development Engineer in Test @ Vodafone</span>
+      <span class="job-period">Foundation · 4.5 years</span>
+    </div>
+    <p class="job-focus">Mobile financial services (FinTech), API and UI test automation architecture</p>
+  </div>
+
+  <h2>AI Focus Areas</h2>
+  <div class="pillars">
+    <div class="pillar">
+      <h3>01 · Claude &amp; MCP</h3>
+      <p>Connecting Claude models, extended thinking, and the Model Context Protocol to enterprise APIs and toolchains.</p>
+    </div>
+    <div class="pillar">
+      <h3>02 · Agentic Orchestration</h3>
+      <p>Multi-agent systems that plan, call tools, validate outputs, and recover from failures with minimal human intervention.</p>
+    </div>
+    <div class="pillar">
+      <h3>03 · Vibe Coding</h3>
+      <p>AI-assisted development that turns domain specifications into production code, held to the same testing standards as hand-written code.</p>
+    </div>
+    <div class="pillar">
+      <h3>04 · Prompt Engineering</h3>
+      <p>Deterministic system prompts with chain-of-thought structure, XML context schemas, and automated evaluation rubrics.</p>
+    </div>
+    <div class="pillar">
+      <h3>05 · Graph Engineering</h3>
+      <p>Modeling API call chains and service dependencies as knowledge graphs to support GraphRAG and system reasoning.</p>
+    </div>
+  </div>
+
+  <h2>Technical Stack</h2>
+  <table>
+    <thead>
+      <tr><th>Domain</th><th>Technologies</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>AI &amp; Agents</td><td>Claude, Agentic AI, MCP, Prompt Engineering, GraphRAG</td></tr>
+      <tr><td>Backend &amp; API</td><td>Java, Spring Boot, REST APIs, Hibernate, JavaScript</td></tr>
+      <tr><td>Test &amp; QA</td><td>Selenium, Cucumber (BDD), Postman, Jira, jQuery</td></tr>
+      <tr><td>DevOps &amp; Cloud</td><td>AWS, Docker, Jenkins, Linux, Git, Tomcat</td></tr>
+      <tr><td>Data</td><td>Oracle, PostgreSQL, Knowledge Graphs</td></tr>
+    </tbody>
+  </table>
+
+  <footer>Ahmed Bughra · @Uycoder</footer>
+
+</div>
+</body>
+</html>
