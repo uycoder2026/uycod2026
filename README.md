@@ -1,89 +1,59 @@
-<!DOCTYPE html>
-<html lang="ug" dir="rtl">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>uycod2026 · خۇش كەلدىڭىز</title>
-<style>
-  :root {
-    --bg: #0D1117;
-    --blue-1: #0A3D8F;
-    --blue-2: #0B6FC2;
-    --blue-3: #4A7DB8;
-    --accent: #0099FF;
-    --text: #FFFFFF;
-    --muted: #8B949E;
-  }
-  * { box-sizing: border-box; margin: 0; padding: 0; }
-  body {
-    min-height: 100vh;
-    background: var(--bg);
-    color: var(--text);
-    font-family: "Noto Sans Arabic", "Segoe UI", Tahoma, sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 24px;
-  }
-  .banner {
-    position: relative;
-    width: 100%;
-    max-width: 820px;
-    padding: 56px 32px 64px;
-    border-radius: 10px;
-    background: linear-gradient(90deg, var(--blue-1) 0%, var(--blue-2) 60%, var(--blue-3) 100%);
-    text-align: center;
-    overflow: hidden;
-  }
-  .banner::after {
-    content: "";
-    position: absolute;
-    left: 0; right: 0; bottom: 0;
-    height: 38%;
-    background: linear-gradient(180deg, transparent, rgba(11,34,57,0.55));
-    clip-path: polygon(0 40%, 25% 20%, 55% 45%, 80% 25%, 100% 35%, 100% 100%, 0 100%);
-    pointer-events: none;
-  }
-  .name {
-    position: relative;
-    z-index: 1;
-    font-family: "Segoe UI", Tahoma, sans-serif;
-    font-size: clamp(36px, 7vw, 60px);
-    font-weight: 800;
-    letter-spacing: 1px;
-    direction: ltr;
-  }
-  .tagline {
-    position: relative;
-    z-index: 1;
-    margin-top: 14px;
-    font-size: clamp(15px, 2.5vw, 19px);
-    font-weight: 600;
-    opacity: 0.95;
-  }
-  .welcome {
-    margin: 36px 0 0;
-    font-size: clamp(22px, 4vw, 30px);
-    font-weight: 700;
-    color: var(--accent);
-    text-align: center;
-  }
-  .welcome-sub {
-    margin-top: 8px;
-    color: var(--muted);
-    font-size: 15px;
-    text-align: center;
-  }
-</style>
-</head>
-<body>
-  <main>
-    <section class="banner">
-      <h1 class="name">uycod2026</h1>
-      <p class="tagline">✦ Agentic AI · Claude · Graph &amp; Prompt Engineering ✦</p>
-    </section>
-    <h2 class="welcome">خۇش كەلدىڭىز</h2>
-    <p class="welcome-sub">ئىسمىم uycod2026 — بۇ يەرگە كەلگىنىڭىزدىن خۇرسەنمىز.</p>
-  </main>
-</body>
-</html>
+readme_content = """<!-- ===================================================================== -->
+<!-- 🌙 UYCOD2026 - GITHUB PROFILE README (كونا كودچىلار ئۇسلۇبىدا)       -->
+<!-- ===================================================================== -->
+
+<div align="center">
+
+  <!-- 1. يۇقىرىقى دولقۇنسىمان كۆك بايراق رەڭگىدىكى لوزۇنكا (Capsule Render) -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:041E42,50:00529B,100:0099FF&height=230&section=header&text=%E2%98%AA%20uycod2026&fontSize=58&fontColor=ffffff&fontAlignY=38&desc=%E2%9C%A6%20%D8%AE%DB%87%D8%B4%20%D9%83%DB%95%D9%84%D8%AF%D9%89%DA%AD%D9%89%D8%B2%20%7C%20%D9%83%D9%88%D9%86%D8%A7%20%D9%83%D9%88%D8%AF%DA%86%D9%89%D9%84%D8%A7%D8%B1%20%7C%20Senior%20Architect%20%26%20Hacker%20%E2%9C%A6&descSize=19&descAlignY=62&animation=fadeIn" width="100%" alt="uycod2026 Header" />
+
+  <!-- 2. خەت يېزىلىپ چىقىدىغان ئاپتوماتىك كۆك خەت قۇرى (Typing SVG) -->
+  <a href="https://github.com/uycod2026">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3500&pause=1000&color=00A8FF&center=true&vCenter=true&width=850&lines=%D8%AE%DB%87%D8%B4+%D9%83%DB%95%D9%84%D8%AF%D9%89%DA%AD%D9%89%D8%B2+%E2%80%A2+uycod2026+%D8%A8%D8%A7%D8%B4+%D8%A8%DB%90%D8%AA%D9%89%DA%AF%DB%95+%D9%85%DB%95%D8%B1%DA%BE%DB%95%D8%A8%D8%A7!;%D9%83%D9%88%D9%86%D8%A7+%D9%83%D9%88%D8%AF%DA%86%D9%89%D9%84%D8%A7%D8%B1+%E2%80%A2+Old-School+Coder+%E2%80%A2+System+Architect;Zero-Telemetry+%E2%80%A2+Clean+Architecture+%E2%80%A2+AI+%26+Security+Engineer" alt="Typing SVG" />
+  </a>
+
+  <br/>
+
+  <!-- 3. بەلگە تاختىلىرى (Shields.io Badges) - 1-رەسىمدىكى ئۇسلۇبتا -->
+  <p>
+    <img src="https://img.shields.io/badge/%E2%98%AA%20IDENTITY-KOK%20BAYRAQ%20SPIRIT-0099FF?style=for-the-badge&labelColor=0A1124&color=0099FF" alt="Identity" />
+    <img src="https://img.shields.io/badge/STATUS-%D9%83%D9%88%D9%86%D8%A7%20%D9%83%D9%88%D8%AF%DA%86%D9%89%D9%84%D8%A7%D8%B1%20(VETERAN)-00B4D8?style=for-the-badge&labelColor=0A1124&color=00B4D8" alt="Veteran Coder" />
+  </p>
+  <p>
+    <img src="https://img.shields.io/badge/EXPERIENCE-10%2B%20YEARS%20HARDCORE%20CODING-FFFFFF?style=for-the-badge&labelColor=0088FF&color=FFFFFF" alt="Experience" />
+    <img src="https://komarev.com/ghpvc/?username=uycod2026&label=PROFILE%20VIEWS&color=0088FF&style=for-the-badge" alt="Profile Views" />
+  </p>
+
+</div>
+
+<hr/>
+
+<!-- 4. كونا كودچىلار تېرمىنالى ۋە 2-رەسىم بىرلەشتۈرۈلگەن قىسىم -->
+<div dir="rtl" align="right" style="font-family: 'UKIJ Ekran', 'UKIJ Tuz', 'ALKATIP Basma', sans-serif;">
+
+## 💻 كونا كودچىلار تېرمىنالى (`uycod2026@root:~#`)
+
+<img align="left" src="./images.jpg" width="420" style="border-radius: 12px; border: 2px solid #0099FF; margin-right: 20px;" alt="uycod2026 Hacker Setup" />
+
+> **«ئەسسالامۇئەلەيكۇم، خۇش كەلدىڭىز! ھەقىقىي كود قاراڭغۇ ئېكران ئالدىدا، جىمجىت كېچىلەردە پۈتۈلىدۇ.»**
+
+مەن **uycod2026** — يىللاردىن بۇيان يۇمشاق دېتال قۇرۇلمىسى، سىستېما بىخەتەرلىكى ۋە سۈنئىي ئەقىل تېخنىكىسى بىلەن شۇغۇللىنىۋاتقان **كونا كودچىلار**نىڭ بىرى. 
+
+* 🛡️ **پىرىنسىپ:** پاكىز كود قۇرۇلمىسى (Clean Architecture)، مەخپىيەتلىك ۋە مۇستەقىل ئىجرا مۇھىتى (Zero-Telemetry & Offline-First).
+* ⚡ **ئاساسلىق يۆنىلىش:** يادرولۇق سىستېما لايىھەلەش، كېڭەيتىلمە ئەپلەر، سۈنئىي ئەقىل (AI Agents) ۋە يۇقىرى ئۈنۈملۈك قوراللارنى ياساش.
+* 🌐 **تىل ۋە يېزىق قوللاش:** ئۇيغۇرچە يۇمشاق دېتال كۆرۈنمە يۈزى (RTL Layout & Uyghur Typography) ستاندارتىنى يۇقىرى كۆتۈرۈش.
+
+</div>
+
+<br clear="both"/>
+
+---
+
+<!-- 5. تېرمىنال كود كۆرۈنۈشى (Hacker Terminal Block) -->
+```bash
+uycod2026@veteran-node:~$ whoami
+> Name       : uycod2026
+> Title      : كونا كودچىلار (Old-School Veteran Coder & Architect)
+> Greeting   : خۇش كەلدىڭىز (Welcome to the Mainframe)
+> Philosophy : "Talk is cheap. Show me the code."
+> Status     : [████████████████████] 100% Online & Coding in the Shadows...
